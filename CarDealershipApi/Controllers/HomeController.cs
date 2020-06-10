@@ -32,11 +32,60 @@ namespace CarDealershipApi.Controllers
             return View();
         }
 
+
         public HttpClient GetClient()
         {
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("https://localhost:44384/");
             return client;
+        }
+        public async Task<IActionResult> Search(string searchTerm, string searchType)
+        {
+            HttpClient client = GetClient();
+            var response = await client.GetAsync("api/Vehicle");
+            var result = await response.Content.ReadAsAsync<List<Vehicle>>();
+            List<Vehicle> vl = new List<Vehicle>();
+            if(searchType == "color")
+            {
+                foreach(Vehicle v in result)
+                {
+                    if (v.Color.Contains(searchTerm))
+                    {
+                        vl.Add(v);
+                    }
+                }
+            }
+            else if(searchType == "year")
+            {
+                foreach (Vehicle v in result)
+                {
+                    if (v.Year.Year == int.Parse(searchTerm))
+                    {
+                        vl.Add(v);
+                    }
+                }
+            }          
+            else if(searchType == "make")
+            {
+                foreach (Vehicle v in result)
+                {
+                    if (v.Make.Contains(searchTerm))
+                    {
+                        vl.Add(v);
+                    }
+                }
+            }      
+            else if(searchType == "model")
+            {
+                foreach (Vehicle v in result)
+                {
+                    if (v.Model.Contains(searchTerm))
+                    {
+                        vl.Add(v);
+                    }
+                }
+            }
+            return View(vl);
         }
 
         public async Task<IActionResult> ViewVehicleList()

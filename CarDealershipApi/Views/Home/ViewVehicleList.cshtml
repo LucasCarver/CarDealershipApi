@@ -1,5 +1,9 @@
 ﻿@model List<Vehicle>
 
+@if (Model == null) 
+{ 
+    <h2 class="text-danger">No vehicles to display!</h2>
+}
 @foreach(Vehicle v in Model)
 {
     <h4>@v.Id: @v.Year.Year @v.Color @v.Make @v.Model</h4>

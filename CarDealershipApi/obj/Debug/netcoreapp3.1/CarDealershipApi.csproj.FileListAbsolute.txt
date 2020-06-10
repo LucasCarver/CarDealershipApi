@@ -73,3 +73,4 @@ C:\Users\imWUMPUS\source\repos\CSharp_April2020\CarDealershipAPI\CarDealershipAp
 C:\Users\imWUMPUS\source\repos\CSharp_April2020\CarDealershipAPI\CarDealershipApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\imWUMPUS\source\repos\CSharp_April2020\CarDealershipAPI\CarDealershipApi\obj\Debug\netcoreapp3.1\Razor\Views\Home\ViewIndividualVehicle.cshtml.g.cs
 C:\Users\imWUMPUS\source\repos\CSharp_April2020\CarDealershipAPI\CarDealershipApi\obj\Debug\netcoreapp3.1\Razor\Views\Home\ViewVehicleList.cshtml.g.cs
+C:\Users\imWUMPUS\source\repos\CSharp_April2020\CarDealershipAPI\CarDealershipApi\obj\Debug\netcoreapp3.1\Razor\Views\Home\Search.cshtml.g.cs

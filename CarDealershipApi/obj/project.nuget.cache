@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QekhS4eL+3+1G9Ijzdu5rOEoeMODu9G39So4FoWZ5egUGjV29SppUIT9YNs7f/aNIfB9zIISHVKB6LjGQdKA/A==",
+  "dgSpecHash": "AJk5k2RkEFeTbRGH51vqdM9DEsaIdH8NJBjqMJIMFS9+8eKTHoCiORgQcryQBnt0jW8I3hlyFBWCdNZJY3YIlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\imWUMPUS\\source\\repos\\CSharp_April2020\\CarDealershipApi\\CarDealershipApi\\CarDealershipApi.csproj",
+  "projectFilePath": "C:\\Users\\imWUMPUS\\source\\repos\\CSharp_April2020\\CarDealershipAPI\\CarDealershipApi\\CarDealershipApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\imWUMPUS\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\imWUMPUS\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

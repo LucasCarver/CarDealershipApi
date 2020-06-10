@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\imWUMPUS\\source\\repos\\CSharp_April2020\\CarDealershipApi\\CarDealershipApi\\CarDealershipApi.csproj": {}
+    "C:\\Users\\imWUMPUS\\source\\repos\\CSharp_April2020\\CarDealershipAPI\\CarDealershipApi\\CarDealershipApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\imWUMPUS\\source\\repos\\CSharp_April2020\\CarDealershipApi\\CarDealershipApi\\CarDealershipApi.csproj": {
+    "C:\\Users\\imWUMPUS\\source\\repos\\CSharp_April2020\\CarDealershipAPI\\CarDealershipApi\\CarDealershipApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\imWUMPUS\\source\\repos\\CSharp_April2020\\CarDealershipApi\\CarDealershipApi\\CarDealershipApi.csproj",
+        "projectUniqueName": "C:\\Users\\imWUMPUS\\source\\repos\\CSharp_April2020\\CarDealershipAPI\\CarDealershipApi\\CarDealershipApi.csproj",
         "projectName": "CarDealershipApi",
-        "projectPath": "C:\\Users\\imWUMPUS\\source\\repos\\CSharp_April2020\\CarDealershipApi\\CarDealershipApi\\CarDealershipApi.csproj",
+        "projectPath": "C:\\Users\\imWUMPUS\\source\\repos\\CSharp_April2020\\CarDealershipAPI\\CarDealershipApi\\CarDealershipApi.csproj",
         "packagesPath": "C:\\Users\\imWUMPUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\imWUMPUS\\source\\repos\\CSharp_April2020\\CarDealershipApi\\CarDealershipApi\\obj\\",
+        "outputPath": "C:\\Users\\imWUMPUS\\source\\repos\\CSharp_April2020\\CarDealershipAPI\\CarDealershipApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
