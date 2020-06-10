@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<p class="text-danger">@ViewBag.Status</p>
+
+<h1><a href="/Home/ViewVehicleList">View Entire Vehicle List</a></h1>
+
+<h2>View Individual Vehicle</h2>
+<form action="/Home/ViewIndividualVehicle" method="get">
+    <div>
+        <label for="id">Vehicle ID:</label>
+        <input type="number" name="id" required />
+    </div>
+    <div>
+        <input type="submit" />
+    </div>
+</form>
+
+<h2>Add Vehicle</h2>
+<form action="/Home/AddVehicle" method="post">
+    <div>
+        <div>
+            <label for="year">Year: </label>
+            <input type="date" name="year" required />
+        </div>
+        <div>
+            <label for="color">Color: </label>
+            <input type="text" name="color" required />
+        </div>
+        <div>
+            <label for="make">Make: </label>
+            <input type="text" name="make" required />
+        </div>
+        <div>
+            <label for="model">Model: </label>
+            <input type="text" name="model" required />
+        </div>
+        <div>
+            <input type="submit" />
+        </div>
+    </div>
+
+</form>
+
+<h2>Update Vehicle</h2>
+<form action="Home/UpdateVehicle" method="put">
+    <div>
+        <label for="id">Vehicle ID: </label>
+        <input type="number" name="id" required />
+    </div>
+    <div>
+        <label for="year">Updated Year: </label>
+        <input type="date" name="year" required />
+    </div>
+    <div>
+        <label for="color">Updated Color: </label>
+        <input type="text" name="color" required />
+    </div>
+    <div>
+        <label for="make">Updated Make: </label>
+        <input type="text" name="make" required />
+    </div>
+    <div>
+        <label for="model">Updated Model: </label>
+        <input type="text" name="model" required />
+    </div>
+    <div>
+        <input type="submit" />
+    </div>
+</form>
+
+<h1>Remove Vehicle</h1>
+<form action="/Home/DeleteVehicle" method="delete">
+    <label for="id">Vehicle ID:</label>
+    <input type="number" name="id" required />
+    <input type="submit" />
+</form>
